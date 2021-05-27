@@ -18,7 +18,13 @@
   },
   "homepage": "https://github.com/gongflower0/react-demo-3#readme",
   "devDependencies": {
+    "awesome-typescript-loader": "^5.2.1",
+    "html-webpack-plugin": "^5.3.1",
+    "typescript": "^4.3.2",
     "webpack": "^5.37.1",
     "webpack-cli": "^4.7.0"
+  },
+  "dependencies": {
+    "webpack-dev-server": "^3.11.2"
   }
 }
