@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack serve --config webpack.config.dev.js",
+    "build": "webpack --config webpack.config.prod.js"
   },
   "repository": {
     "type": "git",
@@ -18,6 +20,8 @@
   },
   "homepage": "https://github.com/gongflower0/react-demo-3#readme",
   "devDependencies": {
+    "@types/react": "^17.0.8",
+    "@types/react-dom": "^17.0.5",
     "awesome-typescript-loader": "^5.2.1",
     "html-webpack-plugin": "^5.3.1",
     "typescript": "^4.3.2",
@@ -25,6 +29,8 @@
     "webpack-cli": "^4.7.0"
   },
   "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
     "webpack-dev-server": "^3.11.2"
   }
 }
