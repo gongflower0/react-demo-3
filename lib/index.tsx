@@ -1,4 +1,4 @@
 import React from 'react';
 import ReactDom from 'react-dom';
-import Button from './button'
-ReactDom.render(<Button></Button>, document.body);
+import App from './App'
+ReactDom.render(<App></App>, document.body);
